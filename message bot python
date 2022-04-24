@@ -1,0 +1,20 @@
+# CODE WITH HARIT
+# CYBER OCTOPUS
+
+import random
+
+import pyautogui as pg 
+
+import time
+
+Hacker = ('Are Anonymous' , 'Are Legion' , 'Do Not Forgive' , 'Do Not Forget' , 'Expect Us')
+
+time.sleep(10)
+
+for i in range (1000):
+
+    a = random.choice(Hacker)
+
+    pg.write('We ' +a)
+
+    pg.press('enter')
